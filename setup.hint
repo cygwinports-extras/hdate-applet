@@ -1,0 +1,5 @@
+category: Gnome Judaism
+requires: cygwin gnome-panel libecal12 libhdate libiconv2 libintl3
+sdesc: "Hebrew date applet for the GNOME Panel"
+ldesc: "HDate-applet is an applet to show the hebrew date (calendar) 
+using the libhdate library"
