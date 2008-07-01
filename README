@@ -4,12 +4,12 @@ HDate-applet is a GNOME applet to show the hebrew date (calendar)
 using the libhdate library.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
   evolution-data-server-2.22.2-1
-  gdk-pixbuf2-2.12.9-1
+  gdk-pixbuf2-2.12.10-1
   glib2-2.16.3-1
   gnome-panel-2.22.2-1
-  gtk2-x11-2.12.9-1
+  gtk2-x11-2.12.10-1
   libgnome2-2.22.0-1
   libgnomeui2-2.22.1-1
   libhdate1-1.4.12-1
@@ -17,7 +17,6 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.25-11
   autoconf2.5-2.61-1
   automake1.10-1.10.1-1
   binutils-20060817-1
@@ -37,15 +36,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack hdate-applet-0.15.9-1-src.tar.bz2
+  unpack hdate-applet-0.15.10-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./hdate-applet-0.15.9-1.cygport all
+  cygport ./hdate-applet-0.15.10-1.cygport all
 
 This will create:
-  /usr/src/hdate-applet-0.15.9-1-src.tar.bz2
-  /usr/src/hdate-applet-0.15.9-1.tar.bz2
+  /usr/src/hdate-applet-0.15.10-1-src.tar.bz2
+  /usr/src/hdate-applet-0.15.10-1.tar.bz2
 
 -------------------------------------------
 
@@ -57,11 +56,11 @@ Files included in the binary package:
   /usr/lib/bonobo/servers/hdate-applet.server
   /usr/lib/panel-2.0/hdate-applet.exe
   /usr/share/applications/hdate_systray.desktop
-  /usr/share/doc/hdate-applet-0.15.9/AUTHORS
-  /usr/share/doc/hdate-applet-0.15.9/COPYING
-  /usr/share/doc/hdate-applet-0.15.9/ChangeLog
-  /usr/share/doc/hdate-applet-0.15.9/INSTALL
-  /usr/share/doc/hdate-applet-0.15.9/README
+  /usr/share/doc/hdate-applet-0.15.10/AUTHORS
+  /usr/share/doc/hdate-applet-0.15.10/COPYING
+  /usr/share/doc/hdate-applet-0.15.10/ChangeLog
+  /usr/share/doc/hdate-applet-0.15.10/INSTALL
+  /usr/share/doc/hdate-applet-0.15.10/README
   /usr/share/locale/he/LC_MESSAGES/hdate_applet.mo
   /usr/share/pixmaps/hdate-applet/gray-moon-01.png
   /usr/share/pixmaps/hdate-applet/gray-moon-02.png
@@ -123,6 +122,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 0.15.10-1 -----
+Version bump.
 
 ----- version 0.15.9-1 -----
 Version bump.

@@ -1,0 +1,7 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Hebrew date applet"
+HOMEPAGE="http://hdateapplet.sourceforge.net/"
+SRC_URI="mirror://sourceforge/hdateapplet/${P}.tar.bz2"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/panel-2.0"
