@@ -1,5 +1,5 @@
 category: Gnome Religion
-requires: cygwin evolution-data-server glib2 gdk-pixbuf2 gtk2-x11 gnome-panel libgnome2 libgnomeui2 libhdate1 libintl8
+requires: evolution-data-server glib2 gdk-pixbuf2 gtk2-x11 gnome-panel libgnome2 libgnomeui2 libhdate1 libintl8
 sdesc: "Hebrew date applet for the GNOME Panel"
 ldesc: "HDate-applet is an applet to show the hebrew date (calendar) 
 using the libhdate library"
